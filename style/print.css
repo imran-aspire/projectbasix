@@ -1,0 +1,41 @@
+h2,#billoflandingprint{
+    display: none;
+}
+#scwIframe{display: none;}
+#scw{display: none;}
+#wphead{display: none;}
+#adminmenu{width: 0px; display: none;}
+#screen-meta{display: none;}
+.update-nag{display: none;}
+#topBox{display: none;}
+#footer{display: none;}
+
+body, #wpbody, .form-table {
+    margin-left: 0px;
+}
+
+#letterList{
+    display: none;
+}
+#buttonBox{
+    display: none;
+}
+.confirm{
+    display:none;
+}
+
+#adminmenushadow, #adminmenuback{
+    display: none;
+}
+body.admin-bar #wpcontent, body.admin-bar #adminmenu {
+    padding: 0px !important;
+}
+#wpcontent, #footer {
+    margin: 0px !important;
+}
+#wpwrap {
+    padding-left: 8px !important;
+}
+#topNav,.searchOption,.messageBox,#header,.leftNav,#loaderBox, #projectDate,#mainHead,#allProject2,#CompanyBox,.printReport,.exportReport{
+    display: none;
+}

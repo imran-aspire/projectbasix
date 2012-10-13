@@ -1,0 +1,194 @@
+.pageContent,#pbxAddFormBox,#addTaskFormBox,.addTaskFormBox,#CommentsBox,.taskBox,#clientBox,#reportTabSub{
+    display: none;
+}
+#loaderBox{
+    position: fixed;
+    float: left;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 38px;
+    display: none;
+}
+
+.ms-selectable input{
+    width: 162px !important;
+}
+.nSuccess,.nFailure{
+    display:none;
+}
+
+.projectSummery{
+    
+    float: right;
+    padding: 5px;
+    width: 320px;
+    margin-top: -46px;
+}
+.closeSummery img{
+    float: right;
+    margin: 10px;
+}
+.complete{
+    width: 100px;
+    float: right;
+    color: white;
+    font-size: 16px;
+    color: #24292D !important;
+    margin-top: 7px;
+    
+} 
+.deadline{
+     text-align:right;
+     width: 200px;float: right !important;display: inline;clear: none;
+     color: red !important;
+}
+.pstart{
+    width: 200px;display: inline; float: left; clear: none;color: green !important;
+}
+.avaterBox .basicBtn{
+    border: none;
+    padding:6px !important;
+}
+
+.select-wrapper{
+    background: url(select.png) no-repeat 100% 50% #fafafa;
+    width: 320px;
+    height: 26px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+color: #444;
+}
+ .select-wrapper select{ width: inherit; height: inherit;}   
+
+ .select-wrapper span{ position: absolute; padding-left: 6px; height: 26px; line-height: 26px;}
+ 
+ input ,select{
+      background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    color: #888888;
+ }
+ .mywidget{
+    margin: 0px !important;
+   
+ }
+ .filesBox p{
+    margin: 0px !important;
+ }
+ .addTaskFormBox2{
+    margin-left: -10px;
+ }
+ .tablenav-pages{
+   float: right;
+    font-size: 13px;
+    padding-right: 20px;
+    padding-top: 9px;
+ }
+ #projectContent fieldset{
+    padding: 0px !important;
+ }
+ #projectContent .widget{
+    margin-top: -10px;
+    
+ }
+ .companyTitle{
+    padding-top: 50px;
+    width: 500px;
+    float:right;
+    
+ }
+ .companyTitle small{
+    float: right;
+    font-style: italic;
+    margin-top: 4px;
+ }
+ .companyTitle h1{
+    font-size: 34px;
+    float:right;
+    
+ }   
+ .searchOption{
+    margin: auto;
+    width: 100%;
+    margin-bottom: -20px;
+    
+    height: 40px;
+    position: fixed;
+    background-color: #FAFAFA;
+    z-index: 200;
+    display: none;
+ }
+ .searchOption label{
+    padding: 0 10px ;
+    font-weight: bold;
+ }
+ .searchOption input[type="radio"]{
+    float: none !important;
+ }
+ .searchOption input[type="text"]{
+    width: 300px;
+    height: 20px;
+    margin-left: 60px;
+    
+ }
+.searchOption img{
+    padding-left: 30px;
+    position: relative;
+    top: 4px;
+}
+.messageBox{
+    margin: auto;
+    width: 100%;
+    margin-bottom: -20px;
+    display: none;
+   
+    background-color: #FAFAFA;
+}
+.messageBox .seachUpClck{
+    float: right;
+}
+.sendremaind{
+    color:  red !important;
+}
+.small2{
+    float: right !important;
+} 
+.messageBody p{
+    padding:3px 0px  !important;
+}
+.messageBody .head strong{
+    float: right !important;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8px;
+    
+}
+.moreRead{
+    font-weight: normal !important;
+    
+}
+#projectListBox{
+    display: none;
+}
+.reportHead{
+    width: 100%;
+    float: left;
+    
+}
+.reportHeadLeft{
+    width: 49%;
+    float: left;
+    padding-bottom: 15px;
+    
+}
+.reportHeadRight{
+    width: 50%;
+    float: right;
+   
+}
+.reportHeadRight img{
+    float: right;
+    margin-left: 10px;
+}
